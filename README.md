@@ -1,8 +1,8 @@
-# 🎮 Dhrushmesh Patel (GokuDev) | Unity Game Developer 
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/f0d7fd75-d9d0-46c5-afb1-2d6b4f40305f" /># 🎮 Dhrushmesh Patel (GokuDev) | Unity Game Developer 
 
 A modern, interactive portfolio showcasing my work in gameplay systems, AI-driven NPC behavior, and immersive world-building.
 
-🔗 **[Live Portfolio Link](https://dpatel200420.github.io/dhrushmesh-portfolio/)**
+🔗 **[Live Portfolio Link](https://dpatel200420.github.io/dhrushmesh-portfolio/?v=1)**
 
 ---
 
