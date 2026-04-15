@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhrushmesh Patel | Game Developer & Content Creator</title>
+    <meta name="description" content="Portfolio of Dhrushmesh Patel - Unity Game Developer, Voice Actor, and Gaming Content Creator specializing in Multiplayer and AI Systems.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <img src="assets/images/cursor.svg" alt="Cursor" class="custom-cursor-img" id="custom-cursor">
+
+    <!-- Game-Style Loading Screen -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader-content">
+            <h1 class="loader-title">INITIATING<span class="loader-dots">...</span></h1>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <p class="loader-text">Loading interactive worlds...</p>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <canvas id="particles-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Dhrushmesh<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#voice-acting">Voice Acting</a>
+                <a href="#content">Content</a>
+                <a href="#experience">Exp</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section glass-section">
+        <div class="hero-content">
+            <h2 class="pre-title">Level 1: Start</h2>
+            <h1 class="hero-title">
+                Unity Game Developer <span class="highlight">|</span>
+                Focused on Gameplay & Interactive Experiences
+            </h1>
+
+            <p class="hero-subtitle">
+                I build gameplay systems and interactive environments using Unity, with a growing focus on creating immersive fantasy-style experiences.
+                <br>
+                <span style="font-size: 0.9em; opacity: 0.8; margin-top: 10px; display: block;">
+                    Currently exploring opportunities in Unity Game Development
+                </span>
+            </p>
+
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#content" class="btn btn-secondary">Watch Content</a>
+                <a href="https://drive.google.com/file/d/1ecZfANk4LARbl-zw4id-33Ue9KgpKLiw/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="ph ph-download-simple"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section glass-section">
+        <div class="section-container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper glow-border">
+                        <img src="assets/images/profile_pic.jpg" alt="Dhrushmesh Patel" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="lead-text">
+                        Hi, I'm <strong>Dhrushmesh Patel (GokuDev)</strong>.
+                    </p>
+                    <p>
+                        I am a Unity Game Developer focused on building gameplay systems and interactive experiences. I have practical experience working with Unity to create game mechanics and environments that feel responsive and engaging. My work bridges both full-time development roles and independent projects, where I’ve spent time implementing multiplayer interactions, building AI systems, and focusing on performance optimization to create unique, interactive mechanics.
+                    </p>
+                    <p>
+                        My creative work extends beyond the code. I also contribute to the industry as a Voice Actor, notably voicing characters for the upcoming Indian open-world title "Mumbai Gullies." Additionally, I share my development journey and high-level gameplay as a Content Creator on YouTube, which helps me stay connected to the player’s perspective.
+                    </p>
+                    <p>
+                        I’m particularly interested in fantasy-style games and aim to keep improving my skills by building more polished and immersive gameplay experiences over time.
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Core Roles</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Passion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Tech <span>Arsenal</span></h2>
+            
+            <div class="skills-grid">
+                <!-- Core Dev -->
+                <div class="skill-category core-dev glass-card glow-purple">
+                    <h3>💻 Core Development</h3>
+                    <div class="skill-badges">
+                        <span class="badge badge-lg"><i class="ph ph-unity-logo"></i> Unity</span>
+                        <span class="badge badge-lg"><i class="ph ph-code"></i> C#</span>
+                    </div>
+                </div>
+
+                <!-- Advanced/Unique Edge -->
+                <div class="skill-category advanced-edge glass-card glow-violet">
+                    <h3>🤖 Edge: AI Systems</h3>
+                    <div class="skill-badges">
+                        <span class="badge badge-lg"><i class="ph ph-brain"></i> ChatGPT Integration</span>
+                        <span class="badge badge-lg"><i class="ph ph-robot"></i> ConVAI</span>
+                    </div>
+                </div>
+
+                <!-- Systems & Backend -->
+                <div class="skill-category glass-card">
+                    <h3>⚙️ Systems & Backend</h3>
+                    <div class="skill-badges">
+                        <span class="badge">Photon Fusion</span>
+                        <span class="badge">Firebase</span>
+                        <span class="badge">REST APIs</span>
+                    </div>
+                </div>
+
+                <!-- Game Design -->
+                <div class="skill-category glass-card">
+                    <h3>🎮 Game Design</h3>
+                    <div class="skill-badges">
+                        <span class="badge">Gameplay Systems</span>
+                        <span class="badge">Level Design</span>
+                    </div>
+                </div>
+
+                <!-- Visual & Tools -->
+                <div class="skill-category glass-card">
+                    <h3>🎬 Visuals & Tools</h3>
+                    <div class="skill-badges">
+                        <span class="badge">Blender</span>
+                        <span class="badge">Unity Animation System</span>
+                        <span class="badge">Unity Timeline</span>
+                    </div>
+                </div>
+
+                <!-- Secondary -->
+                <div class="skill-category glass-card secondary-skills">
+                    <h3>🌱 Secondary / Exploring</h3>
+                    <div class="skill-badges">
+                        <span class="badge badge-sm">Unreal Engine</span>
+                        <span class="badge badge-sm">C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section (Standout) -->
+    <section id="achievements" class="section achievement-highlight">
+        <div class="achievement-card epic-glow">
+            <div class="achievement-icon">🏆</div>
+            <div class="achievement-details">
+                <p class="achievement-kicker">Competitive Milestone</p>
+                <h3>Ranked Top 128 player in Marvel Rivals</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section glass-section">
+        <div class="section-container">
+            <h2 class="section-title">Latest <span>Projects</span></h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/images/project_fire_safety_1775987592001.png" alt="Industrial Fire Safety">
+                        <div class="project-overlay">
+                            <button class="btn btn-outline" onclick="openModal('modal-fire')">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🧯 Industrial Fire Safety</h3>
+                        <p class="project-brief">Interactive simulation environment focused on safety.</p>
+                        <div class="tech-tags">
+                            <span>Unity</span><span>ConVAI</span><span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/images/project_elemental_1775987652289.png" alt="Elemental Game">
+                        <div class="project-overlay">
+                            <button class="btn btn-outline" onclick="openModal('modal-elemental')">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🔥❄️ Elemental Shooters <span class="wip-tag">Multiplayer Coming Soon</span></h3>
+                        <p class="project-brief">Fast-paced combat with character switching and statuses.</p>
+                        <div class="tech-tags">
+                            <span>C#</span><span>Photon Fusion</span><span>Combat AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Acting Section -->
+    <section id="voice-acting" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Voice <span>Acting</span></h2>
+            <div class="voice-card glass-card glow-purple-subtle">
+                <div class="voice-content">
+                    <h3>🎙️ Mumbai Gullies (Upcoming)</h3>
+                    <p>Proud to have contributed a character voice to this highly anticipated Indian open-world action game. Combining my deep understanding of game development with theatrical voice performance allows me to understand character direction from both a creative and technical perspective.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Creator Section -->
+    <section id="content" class="section glass-section">
+        <div class="section-container">
+            <h2 class="section-title">Content <span>Creation</span></h2>
+            <div class="content-showcase">
+                <div class="content-desc">
+                    <h3>Beyond Development: The Player's Perspective</h3>
+                    <p>I don't just build games; I play them, break them down, and share the journey. My YouTube channel focuses on gaming content, streaming high-level gameplay, and engaging with a vibrant community of players.</p>
+                    <ul class="creator-highlights">
+                        <li><i class="ph-fill ph-check-circle"></i> Consistent uploads & streams</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Insightful game commentary</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Active community engagement</li>
+                    </ul>
+                    <a href="https://youtube.com/@gokudev2004?si=pDl1BmLY-CiTzZO0" target="_blank" rel="noopener noreferrer" class="btn btn-primary yt-btn"><i class="ph-fill ph-youtube-logo"></i> Visit Channel</a>
+                </div>
+                <div class="video-grid">
+                     <a href="https://youtu.be/m2dcLXEhfiE?si=OYdJhIHsYpfgKEuj" target="_blank" rel="noopener noreferrer" class="video-placeholder glass-card glow-border-hover" style="display: block;">
+                         <img src="assets/images/yt_thumbnail.png" alt="Video Thumbnail">
+                         <div class="play-overlay"><i class="ph-fill ph-play"></i></div>
+                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Career <span>Quest Log</span></h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot glow-purple"></div>
+                    <div class="timeline-date">Dec 2024 - Present</div>
+                     <h3>Voice Actor</h3>
+                     <p class="timeline-company">GameEon Studios</p>
+                     <ul class="timeline-list">
+                         <li>Voicing NPCs and side characters in Mumbai Gullies, an upcoming open-world game.</li>
+                         <li>Collaborating with the team to enhance character storytelling and in-game immersion.</li>
+                         <li>Set to provide additional voiceovers for future updates and upcoming parts of the game.</li>
+                     </ul>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot glow-purple"></div>
+                    <div class="timeline-date">July 2025 - March 2026</div>
+                     <h3>Unity Game Developer</h3>
+                     <p class="timeline-company">Capermint Technologies</p>
+                     <ul class="timeline-list">
+                         <li>Working on multiple Unity-based projects involving real-time systems and gameplay mechanics.</li>
+                         <li>Contributing to performance optimization, bug fixing, and system level improvements.</li>
+                         <li>Collaborating with cross-functional teams in an agile development environment.</li>
+                     </ul>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot glow-purple"></div>
+                    <div class="timeline-date">Nov 2024 - April 2025</div>
+                     <h3>Game Developer</h3>
+                     <p class="timeline-company">NK Proteins Limited</p>
+                     <ul class="timeline-list">
+                         <li>Developing a Unity 3D industrial fire safety training game with interactive mechanics and AI-driven NPCs.</li>
+                         <li>Implemented fire generation, extinguishing systems, and a scoring mechanism to enhance engagement.</li>
+                         <li>Integrated Firebase real-time database to log fire incidents, NPC presence, and key event data.</li>
+                         <li>Debugged and optimized core systems for smoother runtime performance.</li>
+                         <li>Used Git for version control to manage development cycles and testing builds.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section glass-section">
+        <div class="section-container">
+            <h2 class="section-title">Initiate <span>Comms</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>
+                        Looking to collaborate on content, discuss a development role, or invite me to an audition? Drop me a line.
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:pateldhrushmesh@gmail.com" class="social-btn glass-card" target="_blank" rel="noopener noreferrer" title="Email"><i class="ph ph-envelope-simple"></i></a>
+                        <a href="https://www.linkedin.com/in/dhrushmesh-patel-a896a91a8/" class="social-btn glass-card" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="https://dpatel200420.itch.io" class="social-btn glass-card" target="_blank" rel="noopener noreferrer" title="Itch.io"><i class="ph ph-game-controller"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" action="https://formsubmit.co/pateldhrushmesh@gmail.com" method="POST">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New Portfolio Contact: Someone wants to connect!">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Dhrushmesh Patel. All interactive rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Fire Safety Modal -->
+    <div class="modal" id="modal-fire">
+        <div class="modal-content glass-card">
+            <span class="close-modal" onclick="closeModal('modal-fire')">&times;</span>
+            <h2>🧯 Industrial Fire Safety</h2>
+            <div class="modal-body">
+                <img src="assets/images/project_fire_safety_1775987592001.png" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                <h4>Features & Tech</h4>
+                <ul>
+                    <li>Advanced Fire simulation system based on real-world spreading algorithms.</li>
+                    <li>Integrated AI NPCs using ConVAI for dynamic situational interactions.</li>
+                    <li>Firebase telemetry tracking for user performance reviews.</li>
+                </ul>
+                <h4>My Role</h4>
+                <p>Lead Developer architecting the simulation core and API hookups for the intelligent NPCs.</p>
+                <h4>Challenges Solved</h4>
+                <p>Optimized the fire propagation logic to run flawlessly at 60FPS without CPU bottlenecking.</p>
+                <div style="margin-top: 25px;">
+                    <a href="https://youtu.be/IjNGhDSXmuc?si=UazY08wUuOWtsq23" target="_blank" rel="noopener noreferrer" class="btn btn-primary yt-btn"><i class="ph-fill ph-play-circle"></i> Gameplay Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Elemental Modal -->
+    <div class="modal" id="modal-elemental">
+        <div class="modal-content glass-card">
+            <span class="close-modal" onclick="closeModal('modal-elemental')">&times;</span>
+            <h2>🔥❄️ Elemental Game</h2>
+            <div class="modal-body">
+                <img src="assets/images/project_elemental_1775987652289.png" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                <h4>Features & Tech</h4>
+                <ul>
+                    <li>Dynamic combat system featuring Fire and Ice elemental magic capabilities.</li>
+                    <li>Status effects engine (Burn, Slow, Freeze) that alters real-time physics interactions.</li>
+                    <li>AI-driven NPCs with dynamic state-based behavior reacting to player elemental attacks (burn, freeze, slow), including follow and combat systems.</li>
+                    <li>Character-switching mechanics allowing for seamless transitions during gameplay.</li>
+                    <li>Utilized Unity Cinemachine to create scripted, immersive cutscenes for narrative delivery.</li>
+                    <li>Currently under development using Photon Fusion for multiplayer network architecture.</li>
+                </ul>
+                <h4>My Role</h4>
+                <p>Solo Indie Developer creating all gameplay mechanics, networking codebase, and visual logic.</p>
+                <h4>Challenges Solved</h4>
+                <p>Creating a scalable state machine for the robust status effects so that multiple magics can stack seamlessly across the network.</p>
+                <div style="margin-top: 25px;">
+                    <a href="https://youtu.be/JypjuvVZmeo" target="_blank" rel="noopener noreferrer" class="btn btn-primary yt-btn"><i class="ph-fill ph-play-circle"></i> Gameplay Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals End -->
+
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
